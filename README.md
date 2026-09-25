@@ -12,5 +12,10 @@ Validierung eines Hydraulikmoduls zur Vermessung von Wärmepumpen“
 - `SprungantwortAuswertung_xxx.py`: Aufruf der Funktion aus `Reglerauslegung_def.py` und Auswertung
   der einzelnen Spungantworten für die spezifischen Regelstrecken.
 
+## Messdaten
+Der Ordner `messdaten` enthält die exportierten Messreihen der Validierungsmessung
+im Betriebspunkt B0W35 (Verdichterdrehzahl 20–100 %) sowie die Sprungantwortversuche
+zur Reglerparametrierung.
+
 ## Voraussetzungen
 Python 3 mit den Paketen `numpy`, `pandas` und `matplotlib`.
